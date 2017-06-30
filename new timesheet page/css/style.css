@@ -9,6 +9,7 @@ body {
 }
 
 h1 {
+  padding:2em;
   font-weight: normal;
   font-size: 40px;
   font-weight: normal;
@@ -109,7 +110,7 @@ h1 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     counter-increment: bc;
-    opacity: 50%;
+    opacity: 5%;
     background-color: #bdc3c7;
     bottom: 0;
     position: fixed;
