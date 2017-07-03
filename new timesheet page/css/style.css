@@ -23,13 +23,16 @@ h1 {
 }
 
 .select {
-  opacity: 0.9;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
+  border: 0;
   cursor: pointer;
   display: inline-block;
   position: relative;
   font-size: 16px;
   color: #fff;
-  width: 18em;
+  width: 19em;
   height: 2.7em;
 }
 
@@ -40,7 +43,7 @@ h1 {
   bottom: 0;
   left: 0;
   background-color: #8199A3;
-  padding: 8px 8px;
+  padding: 10px 8px;
   -moz-transition: all 0.29s ease-in;
   -o-transition: all 0.29s ease-in;
   -webkit-transition: all 0.29s ease-in;
@@ -92,6 +95,10 @@ h1 {
 .select-options li:hover {
   color: #fff;
   background: #E1B493 ;
+  transform:scale(1.06,1.06);
+  -webkit-transform:scale(1.06,1.06);
+  -moz-transform:scale(1.06,1.06);
+  -moz-transition: all 0.5s ease-in;
 }
 .select-options li[rel="hide"] {
   display: none;
