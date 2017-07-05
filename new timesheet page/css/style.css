@@ -22,11 +22,23 @@ h1 {
   visibility: hidden;
 }
 
+
+.Bloody_Video {
+  position: absolute;
+   top: 0;
+   left: -10;
+   z-index: -100;
+  position :absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .select {
   opacity: 0.8;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 10;
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -34,6 +46,7 @@ h1 {
   color: #fff;
   width: 19em;
   height: 2.7em;
+
 }
 
 .select-styled {
@@ -77,7 +90,7 @@ h1 {
   top: 100%;
   right: 0;
   left: 0;
-  z-index: 99;
+  z-index: 999;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -86,6 +99,7 @@ h1 {
 
 .select-options li {
   margin: 0;
+  z-index: 999;
   padding: 12px 0;
   border-top: 1px transparent;
   -moz-transition: all 0.29s ease-in;
@@ -95,6 +109,7 @@ h1 {
 }
 .select-options li:hover {
   color: #fff;
+  z-index: 999;
   background: #E1B493 ;
   transform:scale(1.06,1.06);
   -webkit-transform:scale(1.06,1.06);
@@ -118,8 +133,8 @@ h1 {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     counter-increment: bc;
-    opacity: 5%;
-    background-color: #bdc3c7;
+
+    background-color: rgb(192,192,192,1);
     bottom: 0;
     position: fixed;
 }
@@ -287,6 +302,12 @@ button {
 	color: #fff;
 	background: #000000;
 }
+
+
+
+
+
+
 
 .dialog,
 .dialog__overlay {
