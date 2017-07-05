@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 body {
+
   font-family: Lato, Arial;
   color: #fff;
   background-color: #444B54;
@@ -24,29 +25,27 @@ h1 {
 
 
 .Bloody_Video {
-  position: absolute;
-   top: 0;
-   left: -10;
-   z-index: -100;
-  position :absolute;
-  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
   width: 100%;
-  height: 100%;
+  opacity: 0.8;
 }
 
 .select {
   opacity: 0.8;
   margin: 0;
   padding: 0;
-  border: 10;
+  border: 20;
   cursor: pointer;
   display: inline-block;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   width: 19em;
-  height: 2.7em;
-
+  height: 2.9em;
+  bottom:
 }
 
 .select-styled {
@@ -127,7 +126,7 @@ h1 {
 
 .back {
     width: 100%;
-    height: 180px;
+    height: 270px;
     float: left;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -345,7 +344,7 @@ button {
 
 .dialog__content {
 	width: 50%;
-	max-width: 560px;
+
 	min-width: 290px;
 	background: #fff;
 	padding: 4em;
