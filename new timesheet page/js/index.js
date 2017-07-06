@@ -94,7 +94,6 @@ $('select').each(function(){
 		var self = this;
 
 		this.ctrlClose.addEventListener( 'click', this.toggle.bind(this) );
-
 		document.addEventListener( 'keydown', function( ev ) {
 			var keyCode = ev.keyCode || ev.which;
 			if( keyCode === 27 && self.isOpen ) {
@@ -110,6 +109,11 @@ $('select').each(function(){
 		if( this.isOpen ) {
 			classie.remove( this.el, 'dialog--open' );
 			classie.add( self.el, 'dialog--close' );
+
+//add the link code here ......
+      window.location.href = "./PlanViewTimeSheet.html";
+
+
 
 			onEndAnimation( this.el.querySelector( '.dialog__content' ), function() {
 				classie.remove( self.el, 'dialog--close' );
