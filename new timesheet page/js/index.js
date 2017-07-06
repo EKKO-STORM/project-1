@@ -41,7 +41,6 @@ $('select').each(function(){
         $styledSelect.removeClass('active');
         $list.hide();
     });
-
 });
 
 ( function( window ) {
@@ -121,7 +120,6 @@ $('select').each(function(){
 		}
 		else {
 			classie.add( this.el, 'dialog--open' );
-
 			this.options.onOpenDialog( this );
 		}
 		this.isOpen = !this.isOpen;

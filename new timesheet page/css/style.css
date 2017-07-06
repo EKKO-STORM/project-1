@@ -302,12 +302,6 @@ button {
 	background: #000000;
 }
 
-
-
-
-
-
-
 .dialog,
 .dialog__overlay {
 	width: 100%;
@@ -368,8 +362,6 @@ button {
   z-index: 999;
   color: #000000;
 }
-
-
 
 .dialog--open .dialog__overlay {
 	-webkit-transition-duration: 0.8s;
